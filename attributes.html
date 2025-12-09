@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <p>
+            <label>First Name:*</label>
+            <input type="text" name="FN"  placeholder="First name" autocomplete="off" maxlength="5"/>
+
+        </p>
+        <p>
+
+            <label>Last Name:*</label>
+            <input type="text" name="LN"  placeholder="Last Name" />
+        </p>
+        <p>
+            <label>Age:</label>
+            <input type="number" name="Age" min="0" max="100" step="12"/>
+
+        </p>
+        <p>
+            <label>Gender:</label>
+            <input type="radio" name="Gender" /><label>Male</label>
+            <input type="radio" name="Gender" /><label>Female</label>
+
+        </p>
+        <p>
+            <label>DOB:</label>
+            <input type="date" name="DOB" min="1950-01-01" max="2022-01-01" />
+        </p>
+
+        <p>
+            <label>Contact No:</label>
+            <input type="tel" name="CN" />
+        </p>
+        <p>
+            <label>Password:*</label>
+            <input type="password" name="password" />
+
+        </p>
+        <p>
+            <label>Qualification:</label>
+            <input type="checkbox" name="matric" /><label>Matriculation</label>
+            <input type="checkbox" name="inter" /><label>Intermediate</label>
+            <input type="checkbox" name="Bachelors" /><label>Bachelors</label>
+        </p>
+        <p>
+            <label>Courses:</label>
+            <select name="Courses">
+                <option selected disabled>Select Course</option>
+                <option>MS OFFICE</option>
+                <option>HTML</option>
+                <option>SEO</option>
+
+            </select>
+
+
+        </p>
+        <p>
+            <label>Upload File(s):</label>
+            <input type="file" name="Upload_Files" multiple />
+        </p>
+        <p>
+            <label>Colors:</label>
+            <input type="color" name="Colors"/>
+        </p>
+<p>
+    <label>Search:</label>
+    <input type="search" name="search"/>
+</p>
+
+<p>
+    <textarea cols="60" rows="7">Enter Feedback Here</textarea>
+</p>
+<p>
+    <label>Email:*</label>
+    <input type="email" name="Email" />
+</p>
+<input type="submit" name="submit"/>
+    </form>
+
+
+
+
+</body>
+
+</html>
